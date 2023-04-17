@@ -1,0 +1,411 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-width: 1140px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* start header */
+.header {
+  background: #273c66;
+  padding: 20px 30px;
+}
+
+.header__logo {
+  width: 160px;
+  float: left;
+}
+
+.header__logo a {
+  display: block;
+}
+
+.header__logo img {
+  width: 100%;
+}
+
+.header__menu {
+  float: right;
+}
+
+.c-header__menu__item {
+  display: inline-block;
+  padding: 13px 0;
+}
+
+.c-header__menu__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.c-header__menu__item a {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.c-header__menu__item a:hover {
+  color: #0eb582;
+}
+
+/* end header */
+/* start mainvisual */
+.mainvisual {
+  background: url("/img/mainvisual.jpg") no-repeat center/cover;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.mainvisual__title {
+  font-size: 64px;
+  line-height: 68px;
+  color: #333;
+  font-weight: 700;
+}
+
+.mainvisual__text {
+  font-size: 18px;
+  line-height: 30px;
+  color: #555;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+/* end mainvisual */
+/* start team */
+.team {
+  padding: 60px 0;
+}
+
+.team__intro {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.team__intro__title {
+  width: 50%;
+  float: left;
+  border-right: 1px solid #d4d8e0;
+  padding: 10px;
+}
+
+.team__intro__subtitle {
+  font-size: 17px;
+  line-height: 20px;
+  color: #777;
+  font-weight: 400;
+}
+
+.team__intro__maintitle {
+  font-size: 36px;
+  line-height: 42px;
+  color: #333;
+  font-weight: 900;
+  margin-top: 15px;
+}
+
+.team__intro__content {
+  width: 50%;
+  float: left;
+  padding: 30px;
+}
+
+.team__intro__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #555;
+}
+
+.team__list {
+  margin-top: 60px;
+}
+
+.team__list__item {
+  width: 25%;
+  float: left;
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+
+.team__item__vatar {
+  width: 255px;
+  height: 255px;
+  background: #c1f3e6;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.team__item__vatar img {
+  width: 100%;
+}
+
+.team__item__info {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.team__item__name {
+  font-size: 24px;
+  line-height: 30px;
+  color: #333;
+  font-weight: 700;
+}
+
+.team__item__position {
+  font-size: 14px;
+  line-height: 20px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* end team */
+/* start register */
+.register {
+  background: #f0fffa;
+  padding: 50px 0;
+}
+
+.register__item {
+  width: 50%;
+  float: left;
+  padding: 20px 40px;
+}
+
+.register__item:nth-child(2n) {
+  border-left: 1px solid #d4d8e0;
+}
+
+.register__image {
+  width: 30%;
+  float: left;
+}
+
+.register__image img {
+  width: 100%;
+}
+
+.register__content {
+  width: 70%;
+  float: left;
+  padding-left: 30px;
+}
+
+.register__title {
+  font-size: 36px;
+  line-height: 42px;
+  color: #333;
+  font-weight: 700;
+}
+
+.register__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #555;
+  margin-top: 15px;
+}
+
+.register__button {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #0eb582;
+  border-radius: 36px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  font-weight: 700;
+  padding: 18px 30px 15px;
+  margin-top: 20px;
+}
+
+.register__button:hover {
+  background: #273c66;
+}
+
+/* end register */
+/* start news */
+.news {
+  margin-bottom: -120px;
+  position: relative;
+}
+
+.news__box {
+  background: url("/img/background-news.png") no-repeat center/cover, #0eb582;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+.news__title {
+  width: 50%;
+  float: left;
+}
+
+.news__subtitle {
+  font-size: 17px;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.news__maintitle {
+  font-size: 42px;
+  line-height: 50px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.news__action {
+  width: 50%;
+  float: left;
+  background: #fff;
+  border-radius: 36px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.news__button {
+  width: 100%;
+  background-color: #273c66;
+  border: none;
+  border-radius: 36px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0);
+  text-transform: uppercase;
+  padding: 16px 35px 14px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.news__button:hover {
+  background: #0eb582;
+}
+
+/* end news */
+/* start footer */
+.footer {
+  background: #273c66;
+  padding: 200px 0 40px;
+}
+
+.footer__col {
+  width: 25%;
+  float: left;
+  padding: 0 20px;
+}
+
+.footer__title {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer__menu {
+  list-style: none;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.footer__menu__item:not(:last-child) {
+  margin: 0 0 5px;
+}
+
+.footer__menu__item a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 36px;
+  color: #a5b7d9;
+}
+
+.footer__menu__item a:hover {
+  color: #0eb582;
+}
+
+.footer__social {
+  list-style: none;
+  padding: 0 15px;
+  margin-top: 30px;
+}
+
+.footer__social__item {
+  float: left;
+  padding: 0 5px;
+}
+
+.footer__social__item a {
+  display: block;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #32476f;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 35px;
+  color: #fff;
+}
+
+.footer__social__item.fb a:hover {
+  background: #3b5998;
+}
+
+.footer__social__item.twitter a:hover {
+  background: #55acee;
+}
+
+.footer__social__item.pinterest a:hover {
+  background: #bd081c;
+}
+
+.footer__social__item.instagram a:hover {
+  background: #f46f30;
+}
+
+.footer__info {
+  border-top: 1px solid #2d436f;
+  padding-top: 30px;
+  margin-top: 20px;
+}
+
+.footer__logo {
+  width: 160px;
+  float: left;
+}
+
+.footer__logo a {
+  display: block;
+}
+
+.footer__logo img {
+  width: 100%;
+}
+
+.footer__copyright {
+  float: right;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+/* end footer *//*# sourceMappingURL=style.css.map */
