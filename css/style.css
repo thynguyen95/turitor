@@ -241,7 +241,7 @@ body {
 /* end register */
 /* start news */
 .news {
-  margin-bottom: -120px;
+  margin: 120px 0 -120px;
   position: relative;
 }
 
